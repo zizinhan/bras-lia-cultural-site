@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-Br"> 
+
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre</title>
+    <link rel="stylesheet"href="./style/style.css">
+
+    <script> 
+        function aumentarTexto() { 
+            var elements = document.getElementsByClassName('tamanho-texto');
+            for (var i = 0; i < elements.length; i++) { 
+                var currentSize = window.getComputedStyle(elements[i], null).getPropertyValue('font-size'); 
+                var newSize = parseFloat(currentSize) + 2; 
+                elements[i].style.fontSize = newSize + 'px';
+        }
+    }
+    
+     function diminuirTexto() {
+         var elements = document.getElementsByClassName('tamanho-texto'); 
+         for (var i = 0; i < elements.length; i++) { 
+            var currentSize = window.getComputedStyle(elements[i], null).getPropertyValue('font-size'); 
+            var newSize = parseFloat(currentSize) - 2; 
+            elements[i].style.fontSize = newSize + 'px'; 
+        
+        }
+     }
+     </script>
+</head>
+<body>
+    <nav id="menu-central">
+        <ul id="menu-central">
+         <li><a href="indexNilzapt.html">Inicio</a></a></li>
+         <li><a href="roteiro.html">Roteiro</a></li>
+         <li><a href="pontosturisticos.html">Pontos-Turísticos</a></li>
+         <li><a href="visitavirtual-pt.html">Visita-virtual</a></li>
+         <li><a href="contactos-pt.html">Contactos</a></li>
+     
+         </ul>
+     </nav>
+   
+     <nav id="menu-acessivel">
+        <nav id="menu-tamanho">
+            <ul>
+                <li><a href=tamanho+.html>A+</a></li>
+                <li><a href=tamanho-.html>A-</a></li>
+            </ul>
+        </nav>
+    
+    
+    <nav id="menu-linguas">
+       <ul>
+        <li><a href="sobre-pt.html">Pt-Br </a></li>
+        <li><a href="About.html">EN </a></li>
+        <li><a href="presentation.htmls">FR </a></li>
+        <li><a href="Sobre-es.html">ES </a></li>
+    
+        </ul>
+    </nav>
+    
+    </nav>
+        
+        <img id="imagemcima" alt="catedral e o palácio do planalto - praça dos três poderes em Brasília" src="./midia/1.1 manipulda 1.jpg">
+        <h1> Sobre </h1>
+        
+        <section>
+            <p class="titulo">Brasília</p1>
+            <article id="texto1">
+                <p> O Distrito Federal é uma das 27 unidades federativas do Brasil e é onde está localizada sua capital, Brasília, fundada a 21 de abril de 1960. Brasília foi construída em 4 anos com o intuito de mudar para lá a capital do país, que se encontrava na época no Rio de Janeiro. </p1>
+                <p> O Distrito Federal é diferente de outras federações brasileiras, pois é uma região com uma administração autônoma, não é nem estado nem município. As urbanizações localizadas fora do Plano Piloto são chamadas de regiões administrativas ou cidades satélites e a sede do seu governo está localizada em Brasília</P1>
+            
+                <p> Brasília é uma cidade que representa uma utopia cheia de grandiosidade e monumentalidade. Segundo Amaral (2003, p. 303), a construção de Brasília significou a abertura de um novo foco de desenvolvimento e conquistas do Centro-Oeste, que possibilitou ampliar a comunicação entre regiões distantes, que passaram a ter a capital brasileira como um ponto de encontro. Em 1891, uma comissão liderada pelo astrónomo e diretor do Observatório Astronómico do Rio de Janeiro Luís Cruls foi criada com o objetivo de iniciar a transição da capital brasileira para o Centro-Oeste. Conhecida como missão Cruls, foi a primeira iniciativa oficial rumo à concretização dessa mudança (Braga-Falcão, 1997, p. 2). A Comissão realizou um trabalho de demarcação de terrenos, tendo delimitado uma área de 14.400 Km² entre 1892 e 1894, atualmente conhecida como “Quadrilátero Cruls”, e que foi usada como base nos projetos futuros da mudança da capital. </p1>
+                <p> A construção de Brasília iniciou em 1956, e foi instituída pelo presidente Juscelino Kubitschek, o qual também nomeou como presidente da construção Israel Pinheiro, engenheiro e deputado federal pelo PSD, o médico Ernesto Silva como diretor administrativo, o engenheiro Bernardo Sayão como diretor técnico Íris Meinberg, membro da UDN na época, como diretora financeira e Oscar Niemeyer foi nomeado para o cargo de diretor do Departamento de Arquitetura (Figueiredo, 1979, p. 15). Um concurso para a realização da nova capital foi constituído, tendo Lúcio Costa vencido com um projeto que tornava a nova capital um local moderno e monumental</p>
+             
+                <a href="#menu-central" class="voltar-link">voltar</a>
+
+                <p> O Plano Piloto foi dividido em 4 escalas:</p> 
+                <p>	Monumental</p>
+                <p> – Onde se concentram as principais atividades administrativas federais e locais: Três Poderes, Palácio do Planalto – sede do poder executivo – Supremo Tribunal Federal – sede do Poder Judiciário – e o Congresso Nacional – sede do poder legislativo –, todos projetados por Niemeyer. Também estão inclusas na assinatura de Niemeyer a Esplanada dos Ministérios, o Palácio Itamaraty, a Catedral, o Teatro Nacional e o Museu Nacional da República. Já a Torre de Televisão e a Plataforma Rodoviária foram projetadas por Lúcio Costa.</p>
+                <p>	 Residencial </p>
+                <p> – Tem como espinha dorsal o Eixo Rodoviário, ao longo do qual encontramos as superquadras, com áreas residenciais, escolas, clubes, bibliotecas, igrejas etc.</p>
+                <p>	Gregária </p>
+                <p>– Localizados nos cruzamentos dos eixos, encontramos os setores Bancários, Hoteleiros, Comercial e de Diversões.</p>
+                <p>	Bucólica – Formada pelas áreas livres e arborizadas, o que faz com que Brasília seja uma cidade-parque. Permeia as outras três escalas e está muito presente na orla do lago Paranoá.</p>
+                <p> Brasília é uma cidade com um forte turismo cultural e económico, tendo a classificação "A" no que tange à afluência de variados tipos de turistas. As suas linhas arquitetônicas modernas e únicas tornam Brasília uma cidade apelativa, tendo como um dos mais atrativos monumentos culturais a Praça dos Três Poderes, a Catedral Metropolitana de Brasília, o Museu JK, a Ponte JK, entre outros monumentos </p>
+                <a href="#menu-central" class="voltar-link">voltar</a>
+            </article>
+        </section>
+        <nav id="menu-central">
+            <ul id="menu-central">
+             <li><a href="indexNilzapt.html">Inicio</a></a></li>
+             <li><a href="roteiro.html">Roteiro</a></li>
+             <li><a href="pontosturisticos.html">Pontos-Turísticos</a></li>
+             <li><a href="visitavirtual-pt.html">Visita-virtual</a></li>
+             <li><a href="contactos-pt.html">Contactos</a></li>
+         
+             </ul>
+         </nav>
+
+         
+    </body>
+
+</html>
