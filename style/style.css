@@ -1,0 +1,195 @@
+body{background-color: rgb(20, 70, 20);}
+.posicionamento{
+    display: flex;
+
+}
+#imagemcima{
+    height: 300px;
+    width: 100%;
+}
+#imagembaixo{
+    height: 300px;
+    width: 100%;
+}
+h1{
+    color: #fff;
+    font-size: 400%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#menu-central{
+    padding: 0;
+    margin-top: 20px;
+}
+#menu-central ul li{
+    display:inline-block;
+    flex-direction: row;
+    justify-content: left;
+    text-decoration: none;
+    list-style: none;
+    gap: 10px; 
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 30px;
+}
+#menu-central ul li a{
+    color: #fff;
+    
+}
+
+#menu-linguas ul{
+    
+    float: right;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    line-height: 5px;
+    padding: 15px;
+    list-style: none;
+    gap: 15px;
+      
+
+}
+#menu-acessivel{
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+}
+    #menu-linguas ul li a{
+        color: #fff;
+        text-decoration: none;
+        align-items: start;
+        justify-content: space-between;
+    }
+    #menu-linguas ul{
+        
+        justify-content: first baseline;
+    }
+    #menu-tamanho ul li{
+        
+        float: left;
+        padding: 15px;
+        display: inline-block;
+        flex-direction: row;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 35px;
+        line-height: 5px;
+        width: 30px;
+        
+    }
+    #menu-tamanho ul li a{
+        text-decoration: none;
+        color: #fff;
+    
+    }
+    h2{
+        color: #fff;
+    }
+    #cabecalho{
+        color: #fff;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+    }
+    .titulo {
+        color: #fff;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 100px;
+        margin-right: 50px; 
+    }
+    p{
+        color: #fff;
+        margin-left: 100px;
+        text-align: justify;
+        margin-right: 100px;
+        font-size: 22px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #texto1{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 20px;
+        width: 15;
+        text-align: justify;
+        margin-right: 100px;
+        margin-bottom: 50px;
+        font-size: 20px;
+    }
+    #texto1{
+        color: #fff;
+    }
+    .voltar-link{
+        display: block;
+        text-align: center;
+        margin: 20px;
+        font-size: 22px;
+        color: yellow;
+    }
+    #considerações finais{
+        color: #fff;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    h6{
+        color: #fff;
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    h7{
+        color: #fff;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    h8{
+        color: #fff;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+    }
+
+    .roteiro-lista { 
+        color: white; 
+        font-size: 20px;
+     } 
+     .roteiro-lista a { 
+        color: white; 
+        text-decoration: none; 
+    }
+     .roteiro-lista a:hover {
+         text-decoration: underline;
+        ]
+    .roteiro-container{
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+    }
+    .roteiro-container section{
+        flex: 1;
+        min-width: 250px;
+    }
+    .voltar-link{
+        display: block;
+        text-align: center;
+        margin: 20px;
+        font-size: 22px;
+        color: yellow;
+        text-decoration: none;
+
+    }
+    .voltar-link:hover{
+        text-decoration: underline;
+
+    }
+    #image { 
+        width: 20%; 
+        height: 50px; 
+    }
+   
+
+    #video {
+        color: #fff;
+        font-size: 24xp;
+        text-decoration: none;
+    }
